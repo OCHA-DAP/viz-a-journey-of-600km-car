@@ -308,7 +308,7 @@ video {
       bottom: -30px; }
   .slick-prev,
   .slick-next {
-    display: none; }
+    display: none !important; }
   footer .stats,
   footer p.small {
     padding: 0 20px; }
