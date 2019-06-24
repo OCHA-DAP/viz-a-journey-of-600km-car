@@ -1,9 +1,4 @@
-window.onbeforeunload = function () {
-  window.scrollTo(0, 0);
-}
-
 $( document ).ready(function() {
-
   const DATA_URL = '';
   mapboxgl.accessToken = 'pk.eyJ1IjoiaHN3OTgiLCJhIjoiY2oyOXh2dzlxMDAwYzJ3bzcyMnRseXcxNCJ9.1h5sGCIL0Pig6OmgZdDBMg';
 
