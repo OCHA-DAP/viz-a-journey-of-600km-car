@@ -21,11 +21,6 @@ $( document ).ready(function() {
   let sectionsHeight = $('#sections').height();
   let articlePosition = sectionsHeight-$('article').outerHeight()-narrative.outerHeight();
   narrative.scroll(function(e) {
-    //make sure map is at top of page
-    if (!isMobile && $(window).scrollTop()>0) {
-      $('html, body').animate({scrollTop: 0}, 500);
-    }
-
     let newSection = currentSection;
 
     //show ticker
